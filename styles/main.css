@@ -92,7 +92,7 @@ header {
     background-size: cover;
     background-position: center center;
     padding: 142px 0;
-    margin-bottom: 140px;
+    margin-bottom: 66px;
 }
 .breadcrumbs {
     padding-left: 0;
@@ -142,7 +142,7 @@ header {
     padding: 100px 100px 80px 100px;
     background-repeat: no-repeat;
     background-position: 0 center;
-    margin-top: 140px;
+    margin-top: 67px;
 }
 .banner-title {
     font-family: 'Nunito Sans', sans-serif;
