@@ -31,6 +31,8 @@ header {
     list-style-type: none;
     padding-left: 0;
     gap: 46px;
+    margin-left: 198px;
+    margin-right: 296px;
 }
 .header-nav a {
     font-weight: 600;
@@ -137,22 +139,23 @@ header {
 }
 .banner-box {
     background-image: url(../images/discount.svg);
-    width: 1180px;
-    height: 438px;
-    left: 370px;
-    right: 370px;
-    top: 726px;
-    padding: 100px 727px 100px 100px;
+    padding: 100px 100px 80px 100px;
     background-repeat: no-repeat;
+    background-position: 0 center;
+    margin-top: 140px;
 }
 .banner-title {
-    left: 0%;
-    right: 73.09%;
-    top: 0%;
-    bottom: 88.24%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
 }
 .banner-title  span {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -160,10 +163,37 @@ header {
     color: #FFFFFF;
     background-color: #F37335;
     border-radius: 20px;
-    padding: 2px 15px;
-    height: 28px;
+    display: block;
+    box-sizing: border-box;
+    text-transform: uppercase;
     width: 95px;
-    margin-right: 258px;
-    margin-bottom: 210px;
-    margin-bottom: 310px;
+    padding: 5px 19px 5px 17px;
+}
+.banner-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAF9F9;
+    max-width: 353px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.banner-link {
+    background: #fbb731;
+    font-weight: 700;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    max-width: 170px;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1e2f40;
+    border: 1px solid #fbb731;
+    margin-bottom: 100px;
 }
