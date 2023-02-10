@@ -92,7 +92,7 @@ header {
     background-size: cover;
     background-position: center center;
     padding: 142px 0;
-    margin-bottom: 66px;
+    margin-bottom: 139px;
 }
 .breadcrumbs {
     padding-left: 0;
@@ -139,10 +139,11 @@ header {
 }
 .banner-box {
     background-image: url(../images/discount.svg);
-    padding: 100px 100px 80px 100px;
+    padding: 100px 100px 98px 100px;
     background-repeat: no-repeat;
-    background-position: 0 center;
+    background-position: center center;
     margin-top: 67px;
+    margin-bottom: 100px;
 }
 .banner-title {
     font-family: 'Nunito Sans', sans-serif;
@@ -152,7 +153,7 @@ header {
     line-height: 76px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin: 0;
 }
 .banner-title  span {
     font-family: 'Open Sans', sans-serif;
@@ -195,5 +196,50 @@ header {
     text-decoration: none;
     color: #1e2f40;
     border: 1px solid #fbb731;
-    margin-bottom: 100px;
+    margin: 0;
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title {
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #1B2A49;
+    margin: 0;
+}
+.menu-select {
+    border: 1px solid #DEDEDE;
+    padding: 13px 30px;
+    border-radius: 22px;
+    color: #443737;
+    font-size: 15px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../images/arrow.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.menu-grid-cover {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+.menu-grid-cover img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
 }
