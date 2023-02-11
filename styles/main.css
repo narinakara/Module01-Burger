@@ -238,7 +238,7 @@ header {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     object-fit: cover;
     width: 100%;
     height: 430px;
@@ -263,20 +263,21 @@ header {
 }
 .menu-grid-btn {
     width: 152px;
-    bottom: 0%;
+    display: flex;
     background: #FBB731;
     border-radius: 5px;
-    flex-basis: 279px;
+    border: none;
+}
+.menu-grid-icon {
+    display: block;
+    margin: 8px 105px 8px 29px;
     background-image: url(../images/cart-menu.svg);
     background-size: 18px 18px;
     background-repeat: no-repeat;
     background-position: 89% center;
 }
-.menu-grid-icon {
-    display: flex;
-    margin: 8px 105px 8px 29px;
-}
 .menu-grid-text {
+    display: block;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
@@ -285,5 +286,4 @@ header {
     text-align: center;
     text-transform: uppercase;
     color: #1E2F40;
-    align-items: center;
 }
