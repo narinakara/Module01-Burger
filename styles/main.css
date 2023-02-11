@@ -243,3 +243,47 @@ header {
     width: 100%;
     height: 430px;
 }
+.menu-grid-title {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #1B2A49;
+}
+.menu-grid-price {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #979797;
+}
+.menu-grid-btn {
+    width: 152px;
+    bottom: 0%;
+    background: #FBB731;
+    border-radius: 5px;
+    flex-basis: 279px;
+    background-image: url(../images/cart-menu.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
+}
+.menu-grid-icon {
+    display: flex;
+    margin: 8px 105px 8px 29px;
+}
+.menu-grid-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    align-items: center;
+}
