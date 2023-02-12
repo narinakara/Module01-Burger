@@ -182,14 +182,14 @@ header {
     margin-top: 10px;
 }
 .banner-link {
-    background: #fbb731;
+    background-color: #fbb731;
     font-weight: 700;
     border-radius: 5px;
     display: block;
     box-sizing: border-box;
     max-width: 170px;
     text-align: center;
-    padding: 18px 0;
+    padding: 18px 0px;
     font-size: 14px;
     line-height: 1.7;
     text-transform: uppercase;
@@ -197,6 +197,10 @@ header {
     color: #1e2f40;
     border: 1px solid #fbb731;
     margin: 0;
+}
+.banner-link:hover {
+    background-color: transparent;
+    color: #fbb731;
 }
 .menu-header {
     display: flex;
@@ -279,6 +283,10 @@ header {
     gap: 10px;
     margin-bottom: 31px;
 }
+.menu-grid-btn:hover {
+    background-color: #F37335;
+    cursor: pointer;
+}
 .menu-grid-icon {
     display: block;
     background-image: url(../images/cart-menu.svg);
@@ -299,4 +307,69 @@ header {
     color: #1E2F40;
     width: 70px;
     height: 18px;
+}
+.footer {
+    background: #1E2F40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+    margin-top: 107px;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+.footer-item {
+    flex: 0 0 auto;
+}
+.footer-item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.footer-list li {
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer-list a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+.footer-list a:hover {
+    color: #FFC725;
+}
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.footer-list-tel {
+    margin-top: 0;
+}
+.footer-list-tel li {
+    margin-bottom: 12px;
+}
+.footer-list-tel a {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FBB731;
+}
+.footer-list-tel a:hover {
+    color: #DEDEDE;
+}
+.footer-list {
+    padding-left: 0;
+    list-style-type: none;
 }
