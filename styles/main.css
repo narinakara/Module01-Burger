@@ -31,8 +31,6 @@ header {
     list-style-type: none;
     padding-left: 0;
     gap: 46px;
-    margin-left: 198px;
-    margin-right: 296px;
 }
 .header-nav a {
     font-weight: 600;
