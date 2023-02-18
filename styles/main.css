@@ -18,6 +18,13 @@ header {
     padding-top: 26px;
     padding-bottom: 25px;
 }
+.header-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-basis: 68.5%;
+    justify-content: space-between;
+}
 .header-logo {
     display: block;
     background-image: url(../images/logo.svg);
@@ -514,10 +521,6 @@ body {
     right: 20px;
     cursor: pointer;
 }
-
-
-
-
 .footer {
     background: #1E2F40;
     color: #fff;
@@ -649,8 +652,81 @@ body {
         display: block;
     }
 }
-@media (max-width: 766px) {
-    .header-nav {
+@media (max-width: 765px) {
+    .header-menu {
         display: none;
+    }
+    .header {
+        gap: 21px;
+    }
+}
+@media (max-width: 567px) {
+    .breadcrumbs a {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 38px;
+    }
+    .description {
+        font-size: 12px;
+    }
+    .bg {
+        padding: 55px 0;
+    }
+    .banner-box {
+        background-position: 17% center;
+        padding: 35px 24px 54px;
+    }
+    .menu-title {
+        width: 127px;
+        height: 56px;
+    }
+    .menu-select {
+        width: 136px;
+        height: 41px;
+    }
+    .menu-grid-item {
+        width: 139px;
+        height: 280px;
+    }
+    .menu-grid-cover {
+        width: 139px;
+        height: 180px;
+    }
+    .menu-grid-title {
+        width: 128px;
+        height: 20px;
+    }
+    .menu-grid-btn {
+        width: 129px;
+        height: 38px;
+    }
+    .menu-grid-price {
+        width: 96px;
+        height: 28px;
+    }
+    .menu-header {
+        width: 260px;
+        height: 56px;
+    }
+    .footer-box {
+        display: grid;
+    }
+    .footer-item {
+        width: 230px;
+        height: 38px;
+    }
+
+}
+@media (max-width: 360px) {
+    .header-logo {
+        width: 116px;
+        height: 37px;
+        background-size: contain;
+    }
+}
+@media (max-width: 320px) {
+    .banner-box {
+        background-position: 30% center;
     }
 }
