@@ -779,6 +779,11 @@ body {
         grid-area: tel;
     }
 }
+@media (max-width: 411px) {
+    .menu-grid-title {
+        font-size: 17px;
+    }
+}
 @media (max-width: 360px) {
     .header-logo {
         width: 116px;
@@ -825,12 +830,49 @@ body {
         margin-bottom: 5px;
     }
     .content-text {
-        font-family: 'Lato';
         font-size: 14px;
-        margin-top: 17px;
-        margin-bottom: 30px;
+        margin-top: 21px;
+        margin-bottom: 33px;
+        max-width: 416px;
     }
     .content-link {
         padding: 17px 40px;
+    }
+    .promo {
+        padding-top: 106px;
+        padding-bottom: 0;
+    }
+    .box {
+        width: 738px;
+        height: 298px;
+    }
+    .promo-left {
+        padding: 44px 52px 43px 32px;
+    }
+    .sale {
+        margin-bottom: 5px;
+    }
+    .description {
+        line-height: 24px;
+        padding-top: 8px;
+    }
+    .promo-right {
+        padding: 60px 29px 59px 30px;
+    }
+    .footer {
+        margin-top: 140px;
+    }
+    .container {
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    .footer-box {
+        display: flex;
+    }
+    .footer-tel {
+        display: flex;
+        position: absolute;
+        top: 1580px;
+        left: 148px;
     }
 }
