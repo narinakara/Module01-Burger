@@ -752,19 +752,16 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .footer-list + .footer-list-tel {
-        display: none;
-    }
-    .footer-tel {
-        grid-area: tel;
-        display: flex;
-        justify-content: end;
-    }
     .footer-box {
         display: grid;
         grid-template-columns: 30% 70%;
         grid-template-areas:"logo tel" "link link" "info info";
-        gap: 0px;
+    }
+    .footer-tel {
+        display: none;
+    }
+    .footer-list + .footer-list-tel {
+        display: block;
     }
     .footer-item:nth-child(1) {
         grid-area: logo;
@@ -778,6 +775,16 @@ body {
     .footer-tel {
         grid-area: tel;
     }
+    /* 
+    .footer-list + .footer-list-tel {
+        display: none;
+    }
+    .footer-tel {
+        grid-area: tel;
+        display: flex;
+        justify-content: end;
+    }
+   */
 }
 @media (max-width: 411px) {
     .menu-grid-title {
