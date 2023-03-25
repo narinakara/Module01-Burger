@@ -419,6 +419,12 @@ body {
     padding-top: 186px;
     padding-bottom: 46px;
 }
+.promo-box {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 .promo-left,
 .promo-right {
     flex: 0 0 49%;
@@ -810,23 +816,33 @@ body {
 
 
 /* Adaptive for index */
-
+@media (max-width: 1162px) {
+    .main img {
+        width: 650px;
+    }
+    .visual-b_g {
+        width: 300px;
+    }
+}
 @media (min-width: 1001px) {
     .footer-list + .footer-list-tel {
         display: none;
     }
 }
+@media (max-width: 981px) {
+    .box {
+        gap: 10%;
+    }
+}
 @media (max-width: 768px) {
     .main {
-        width: 768px;
-        height: 734px;
+        height: 560px;
     }
     .content {
         padding: 0;
         margin-top: 52px;
         margin-bottom: 122px;
         margin-left: 15px;
-        width: 416px;
     }
     .content-title {
         font-size: 86px;
@@ -845,13 +861,20 @@ body {
     .content-link {
         padding: 17px 40px;
     }
+    .visual-b_g {
+        height: 560px;
+    }
+    .main img {
+        width: 490px;
+        right: 90px;
+        top: 138px;
+    }
     .promo {
         padding-top: 106px;
         padding-bottom: 0;
     }
-    .box {
-        width: 738px;
-        height: 298px;
+    .promo-box {
+        gap: 3%;
     }
     .promo-left {
         padding: 44px 52px 43px 32px;
@@ -873,10 +896,67 @@ body {
         padding-right: 7px;
         padding-left: 7px;
     }
-    .footer-box {
-        display: flex;
-    }
     .footer-tel {
         display: flex;
+    }
+}
+@media (max-width: 740px) {
+    .promo-box {
+        gap: 0;
+    }
+}
+@media (max-width: 720px) {
+    .promo-box {
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+    .main {
+        height: 710px;
+    }
+    .visual-b_g {
+        display: none;
+    }
+    .main img {
+        top: 325px;
+        right: -50px;
+    }
+}
+@media (max-width: 450px) {
+    .content-title span {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .content-title {
+        font-size: 58px;
+        line-height: 120%;
+        width: 290px;
+    }
+    .content-text {
+        font-size: 13px;
+        line-height: 140%;
+        width: 277px;
+    }
+    .main img {
+        right: 140px;
+    }
+    .promo {
+        padding-top: 140px;
+    }
+    .promo-box {
+        display: grid;
+    }
+}
+@media (max-width: 360px) {
+    .cost {
+        font-size: 55px;
+    }
+    .free {
+        font-size: 39px;
+    }
+    .promo-description {
+        font-size: 12px;
     }
 }
