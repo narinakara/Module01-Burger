@@ -897,9 +897,7 @@ body {
         padding-left: 7px;
     }
     .footer-tel {
-        position: absolute;
-        top: 1450px;
-        left: 150px;
+        display: block;
     }
 }
 @media (max-width: 740px) {
@@ -912,9 +910,6 @@ body {
         display: grid;
         gap: 20px;
         justify-content: center;
-    }
-    .footer-tel {
-        display: flex;
     }
 }
 @media (max-width: 600px) {
